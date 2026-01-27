@@ -1,22 +1,21 @@
 {
   "schemaVersion": 1,
   "id": "nomorejumpscares",
-  "version": "${version}",
+  "version": "1.0.0-beta",
   "name": "NoMoreJumpscares",
-  "description": "",
+  "description": "Removes the Elder Guardian curse effect when receiving mining fatigue!",
   "authors": [
     "CoolAid48"
   ],
   "contact": {
-    "homepage": "https://coolaid.live/"
+    "homepage": "https://coolaid.live/",
+    "issues": "https://github.com/CoolAid48/NoMoreJumpscares/issues",
+    "sources": "https://github.com/CoolAid48/NoMoreJumpscares"
   },
   "license": "MIT",
   "icon": "assets/nomorejumpscares/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "coolaid.nomorejumpscares.fabric.NoMoreJumpscaresFabric"
-    ],
     "client": [
       "coolaid.nomorejumpscares.fabric.client.NoMoreJumpscaresFabricClient"
     ]
@@ -24,13 +23,18 @@
   "mixins": [
     "nomorejumpscares.mixins.json"
   ],
-  "depends": {
-    "fabricloader": ">=0.18.4",
-    "minecraft": "~1.21.11",
-    "java": ">=21",
-    "fabric-api": "*"
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.donate": "https://ko-fi.com/coolaid48",
+        "modmenu.discord": "https://discord.com/invite/J2SGshKNah",
+        "modmenu.modrinth": "https://modrinth.com/mod/nomorejumpscares"
+      }
+    }
   },
-  "suggests": {
-    "another-mod": "*"
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
   }
 }
