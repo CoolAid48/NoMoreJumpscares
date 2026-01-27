@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "nomorejumpscares",
+  "version": "${version}",
+  "name": "NoMoreJumpscares",
+  "description": "",
+  "authors": [
+    "CoolAid48"
+  ],
+  "contact": {
+    "homepage": "https://coolaid.live/"
+  },
+  "license": "MIT",
+  "icon": "assets/nomorejumpscares/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "coolaid.nomorejumpscares.fabric.NoMoreJumpscaresFabric"
+    ],
+    "client": [
+      "coolaid.nomorejumpscares.fabric.client.NoMoreJumpscaresFabricClient"
+    ]
+  },
+  "mixins": [
+    "nomorejumpscares.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

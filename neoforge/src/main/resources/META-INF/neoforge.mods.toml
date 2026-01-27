@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "nomorejumpscares"
+version = "${version}"
+displayName = "NoMoreJumpscares"
+authors = "CoolAid48"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.nomorejumpscares]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nomorejumpscares]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "nomorejumpscares.mixins.json"
