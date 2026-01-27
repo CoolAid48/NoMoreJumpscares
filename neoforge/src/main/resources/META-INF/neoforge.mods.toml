@@ -1,32 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/CoolAid48/NoMoreJumpscares/issues"
 license = "MIT"
 
 [[mods]]
 modId = "nomorejumpscares"
-version = "${version}"
+version = "1.0.0"
 displayName = "NoMoreJumpscares"
 authors = "CoolAid48"
 description = '''
-
+Removes the Elder Guardian curse effect when receiving mining fatigue!
 '''
-#logoFile = ""
-
-[[dependencies.nomorejumpscares]]
-modId = "neoforge"
-type = "required"
-versionRange = "[21,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.nomorejumpscares]]
-modId = "minecraft"
-type = "required"
-versionRange = "[1.21.11,)"
-ordering = "NONE"
-side = "BOTH"
-
+logoFile = "assets/nomorejumpscares/icon.png"
 
 [[mixins]]
 config = "nomorejumpscares.mixins.json"
