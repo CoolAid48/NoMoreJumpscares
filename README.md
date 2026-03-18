@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Supports_Versions-1.20.2_--_1.21.11-lightblue?style=for-the-badge)
 ![](https://img.shields.io/badge/Environments-Client-lightblue?style=for-the-badge)
 
-Removes the Elder Guardian curse effect when receiving mining fatigue!
+### Removes the Elder Guardian curse effect when receiving mining fatigue!
 
 ## This mod features:
 - **Disabled** Elder Guardian curse particle popup *and* curse sound
