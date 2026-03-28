@@ -5,7 +5,7 @@ license = "MIT"
 
 [[mods]]
 modId = "nomorejumpscares"
-version = "1.0.0"
+version = "${version}"
 displayName = "NoMoreJumpscares"
 authors = "CoolAid48"
 description = '''

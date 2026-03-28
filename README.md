@@ -1,6 +1,6 @@
 # NoMoreJumpscares
 ![](https://img.shields.io/badge/Loader-Fabric%2fQuilt_%2b_NeoForge-lightblue?style=for-the-badge)
-![](https://img.shields.io/badge/Supports_Versions-1.20.2_--_1.21.11-lightblue?style=for-the-badge)
+![](https://img.shields.io/badge/Supports_Versions-1.20.2--1.20.6_|_1.21.x_|_26.1-lightblue?style=for-the-badge)
 ![](https://img.shields.io/badge/Environments-Client-lightblue?style=for-the-badge)
 
 ### Removes the Elder Guardian curse effect when receiving mining fatigue!

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nomorejumpscares",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "NoMoreJumpscares",
   "description": "Removes the Elder Guardian curse effect when receiving mining fatigue!",
   "authors": [
