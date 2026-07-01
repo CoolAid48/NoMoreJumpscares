@@ -3,7 +3,7 @@
   "id": "nomorejumpscares",
   "version": "${version}",
   "name": "NoMoreJumpscares",
-  "description": "Removes the Elder Guardian curse effect when receiving mining fatigue!",
+  "description": "Removes the Elder Guardian curse effect when receiving mining fatigue",
   "authors": [
     "CoolAid48"
   ],
